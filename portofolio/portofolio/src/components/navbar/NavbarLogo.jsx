@@ -1,5 +1,9 @@
 const NavbarLogo = () => {
-  return <div>NavbarLogo</div>;
+  return (
+    <div>
+      <h1 className="text-white text-2xl">Ghebi Armando</h1>
+    </div>
+  );
 };
 
 export default NavbarLogo;

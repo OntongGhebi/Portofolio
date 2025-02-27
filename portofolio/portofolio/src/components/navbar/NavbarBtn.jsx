@@ -1,5 +1,5 @@
 const NavbarBtn = () => {
-  return <div>NavbarBtn</div>;
+  return <button>Hire Me</button>;
 };
 
 export default NavbarBtn;
