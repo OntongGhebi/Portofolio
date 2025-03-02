@@ -11,7 +11,9 @@ const AboutMeText = () => {
         sedang mengikuti perkuliahan pada program studi Teknik Informatika di
         Universitas Lampung.
       </p>
-      <button className="border rounded-md bg-lightblue">My Project</button>
+      <button className="border border-lightblue rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-lightblue text-white hover:text-lightOrange transition-all duration-500 cursor-pointer md:self-start sm:self-end ">
+        My Project
+      </button>
     </div>
   );
 };
