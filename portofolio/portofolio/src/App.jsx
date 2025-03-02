@@ -3,6 +3,7 @@ import HeroGradient from "./components/HeroSection/HeroGradient";
 import HeroMain from "./components/HeroSection/HeroMain";
 import SubHeroSection from "./components/HeroSection/SubHeroSection";
 import MySkillMain from "./components/MySkillSection/MySkillMain";
+import SubSkills from "./components/MySkillSection/SubSkills";
 import NavbarMain from "./components/navbar/NavbarMain";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SubHeroSection />
       <AboutMeMain />
       <MySkillMain />
+      <SubSkills />
     </main>
   );
 }
