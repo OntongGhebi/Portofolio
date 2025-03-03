@@ -4,7 +4,7 @@ import ExpTopRight from "./ExpTopRight";
 
 const ExpTop = () => {
   return (
-    <div>
+    <div className="flex lg:flex-row sm:flex-col gap-4 items-center justify-center">
       <ExpTopLeft />
       <ExpTopMiddle />
       <ExpTopRight />
