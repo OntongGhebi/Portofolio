@@ -6,6 +6,7 @@ import SubHeroSection from "./components/HeroSection/SubHeroSection";
 import MySkillMain from "./components/MySkillSection/MySkillMain";
 import SubSkills from "./components/MySkillSection/SubSkills";
 import NavbarMain from "./components/navbar/NavbarMain";
+import ProjectMain from "./components/ProjectSection/ProjectMain";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <MySkillMain />
       <SubSkills />
       <ExpMain />
+      <ProjectMain />
     </main>
   );
 }
