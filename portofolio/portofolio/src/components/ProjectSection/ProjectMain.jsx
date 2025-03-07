@@ -34,11 +34,9 @@ const projects = [
 
 const ProjectMain = () => {
   return (
-    <div className="mt-10">
-      <div>
-        <ProjectText />
-      </div>
-      <div>
+    <div id="projects" className="max-w-[1200px] mx-auto px-4">
+      <ProjectText />
+      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
         {projects.map((item, index) => (
           <SingleProject
             key={index}
