@@ -7,6 +7,7 @@ import MySkillMain from "./components/MySkillSection/MySkillMain";
 import SubSkills from "./components/MySkillSection/SubSkills";
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectMain from "./components/ProjectSection/ProjectMain";
+import ContactMain from "./components/ContactSection/ContactMain";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SubSkills />
       <ExpMain />
       <ProjectMain />
+      <ContactMain />
     </main>
   );
 }
