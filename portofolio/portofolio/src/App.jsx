@@ -6,7 +6,7 @@ import SubHeroSection from "./components/HeroSection/SubHeroSection";
 import MySkillMain from "./components/MySkillSection/MySkillMain";
 import SubSkills from "./components/MySkillSection/SubSkills";
 import NavbarMain from "./components/navbar/NavbarMain";
-import ProjectMain from "./components/ProjectSection/ProjectMain";
+import ProjectsMain from "./components/ProjectSection/ProjectsMain";
 import ContactMain from "./components/ContactSection/ContactMain";
 import FooterMain from "./components/Footer/FooterMain";
 import HelperSection from "./components/navbar/HelperSection";
@@ -22,7 +22,7 @@ function App() {
       <MySkillMain />
       <SubSkills />
       <ExpMain />
-      <ProjectMain />
+      <ProjectsMain />
       <ContactMain />
       <FooterMain />
       <HelperSection />

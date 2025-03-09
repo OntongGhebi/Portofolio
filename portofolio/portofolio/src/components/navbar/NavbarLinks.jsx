@@ -1,8 +1,10 @@
+import { Link } from "react-scroll";
+
 const links = [
   { link: "About Me", section: "about" },
   { link: "Skills", section: "skills" },
   { link: "Experience", section: "experience" },
-  { link: "Projects", section: "project" },
+  { link: "Projects", section: "projects" },
   { link: "Contact", section: "contact" },
 ];
 
@@ -12,12 +14,16 @@ const NavbarLinks = () => {
       {links.map((link, index) => {
         return (
           <li key={index} className="group">
-            <a
-              href="#"
+            <Link
+              to={link.section}
+              smooth={true}
+              spy={true}
+              duration={500}
+              offset={-300}
               className="cursor-pointer text-white hover:text-lightblue transition-all duration-500"
             >
               {link.link}
-            </a>
+            </Link>
             <div className="mx-auto bg-blue/30 w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
           </li>
         );

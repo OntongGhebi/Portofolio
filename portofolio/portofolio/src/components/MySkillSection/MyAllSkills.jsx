@@ -5,6 +5,8 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAdobeillustrator } from "react-icons/si";
 import MySingleSkill from "./MySingleSkill";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
@@ -47,7 +49,19 @@ const MyAllSkills = () => {
       <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
         {skills.map((item, index) => {
           return (
-            <MySingleSkill key={index} text={item.skill} icon={<item.icon />} />
+            // eslint-disable-next-line react/jsx-key
+            <motion.div
+              variants={fadeIn("up", `0.${index}`)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0 }}
+            >
+              <MySingleSkill
+                key={index}
+                text={item.skill}
+                icon={<item.icon />}
+              />
+            </motion.div>
           );
         })}
       </div>
